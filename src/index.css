@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  color: #333;
+  font-family: 'Inconsolata', monospace;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.navbar h1 {
+  color: #65a5da;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar .links a{
+  text-decoration: none;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #3548f1;
+}
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 2px 3px 5px rgba(15, 82, 102, 0.384);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #35acf1;
+  margin-bottom: 8px;
+}
+.blog-list .blog-preview a{
+   text-decoration: none;
+}
+.Blog-data{
+  width: 100%;
+}
+.btns .edit-btn{
+  margin-left: 20px;
+}
+
+
+
